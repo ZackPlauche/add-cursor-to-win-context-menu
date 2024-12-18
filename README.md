@@ -1,9 +1,9 @@
 # Add Cursor to Windows Context Menu Scripts
+![image](https://github.com/user-attachments/assets/d9428754-03d9-45c9-a0b6-b1628f6dd2ea)
 
 I found the "Add VSCode to Context Menu" option really useful when VSCode was my main editor so I wanted to make a script to add Cursor to the context menu as well.
 
 I'm posting these here so they exist on the internet somewhere.
-
 
 ## Instructions
 - ***IMPORTANT NOTE:*** I built this on a Windows 11 machine. I'm not sure if it will work on other versions of Windows. Let me know somewhere if it does!
