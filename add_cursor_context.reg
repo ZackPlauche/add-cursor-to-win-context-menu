@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Add "Open with Cursor" context menu for folders
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWithCursor]
+@="Open with Cursor"
+"Icon"="C:\\Users\\zackp\\AppData\\Local\\Programs\\cursor\\cursor.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWithCursor\command]
+@="\"C:\\Users\\zackp\\AppData\\Local\\Programs\\cursor\\cursor.exe\" \"%V\""
+
+; Add "Open with Cursor" context menu for the background of folders
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWithCursor]
+@="Open with Cursor"
+"Icon"="C:\\Users\\zackp\\AppData\\Local\\Programs\\cursor\\cursor.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWithCursor\command]
+@="\"C:\\Users\\zackp\\AppData\\Local\\Programs\\cursor\\cursor.exe\" \"%V\"" 
